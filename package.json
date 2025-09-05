@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "sass --watch src/scss:assets/css",
-    "build": "sass src/scss:assets/css --no-source-map --style=compressed"
+    "build": "sass src/scss:assets/css --no-source-map --style=compressed",
+    "deploy": "npm run build && Copy-Item -Path \"dist\\*\" -Destination \".\" -Recurse -Force"
   },
   "name": "portfolio-sass",
   "version": "1.0.0",
