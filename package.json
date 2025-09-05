@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "sass --watch src/scss:assets/css",
+    "build": "sass src/scss:assets/css --no-source-map --style=compressed"
+  },
+  "name": "portfolio-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karkeraprakyath/portfolio-scss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/karkeraprakyath/portfolio-scss/issues"
+  },
+  "homepage": "https://github.com/karkeraprakyath/portfolio-scss#readme",
+  "devDependencies": {
+    "sass": "^1.92.0"
+  }
+}
